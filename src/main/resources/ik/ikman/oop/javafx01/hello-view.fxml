@@ -6,8 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" fx:controller="ik.ikman.oop.javafx01.HelloController" xmlns:fx="http://javafx.com/fxml/1 " >
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" fx:controller="ik.ikman.oop.javafx01.HelloController" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" >
    <children>
       <Label layoutX="117.0" layoutY="82.0" text="Name">
          <font>
@@ -32,13 +31,13 @@
       <TextField fx:id="txtName" layoutX="248.0" layoutY="78.0" />
       <TextField fx:id="txtAddress" layoutX="248.0" layoutY="121.0" />
       <TextField fx:id="txtTel" layoutX="248.0" layoutY="179.0" />
-      <TextField fx:id="TxtAge" layoutX="248.0" layoutY="222.0" />
+      <TextField fx:id="txtAge" layoutX="248.0" layoutY="222.0" />
       <Label layoutX="181.0" layoutY="33.0" text="Student Form">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Button layoutX="425.0" layoutY="294.0" mnemonicParsing="false" onAction="#Add" style="-fx-background-color: red;" text="Add Student" textFill="#f5efef">
+      <Button layoutX="425.0" layoutY="294.0" mnemonicParsing="false" onAction="#add" style="-fx-background-color: red;" text="Add Student" textFill="#f5efef">
          <font>
             <Font size="15.0" />
          </font>

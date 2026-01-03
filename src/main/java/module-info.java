@@ -1,6 +1,8 @@
 module ik.ikman.oop.javafx01 {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.desktop;
+    requires java.sql;
 
 
     opens ik.ikman.oop.javafx01 to javafx.fxml;
